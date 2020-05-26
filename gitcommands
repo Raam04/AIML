@@ -1,0 +1,65 @@
+ GIT command
+pwd
+ls
+ls -a
+clear
+cd Desktop/
+ls
+clear
+cd Raptor
+cd ..
+cd Raptor
+cd
+mkdir DS
+ls
+cd DS
+touch Data.txt
+ls
+cat Data.txt
+echo "AIandML" > Data.txt
+cat Data.txt
+gedit Data.txt
+clear
+nano Data.txt
+cat Data.txt
+nano Data.txt
+nano Data.txt
+cat Data.txt
+clear
+ls
+nano test.txt
+ls
+cat test.txt
+rm test.txt
+ls
+rm -d <DirName>
+rmdir <DirName>
+git init
+git status
+git add Data.txt
+git status
+git commit -m "First Commit"
+clear
+git config --global user.email 'ramshiva188@gmail.com'
+git config --global user.name 'Raam04'
+git config user.email
+git config user.name
+clear
+git status
+nano Data.txt
+git status
+git add Data.txt
+git commit -m "Second Commit"
+git log
+clear
+mkdir AIML
+ls
+git remote -help
+clear
+git remote add AIML https://github.com/Raam04/AIML/new/master
+git remote show
+git remote -v
+git pull AIML master
+git push -u AIML
+git push --set-upstream AIML master
+git push -f --set-upstream AIML master
